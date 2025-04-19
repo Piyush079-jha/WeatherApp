@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="weather-app-container">
+            <h1 class="weather-text">WEATHER APP</h1>
+            <!-- search and your weather -->
+            <div class="user-info">
+                <p class="Your-weather">Your weather</p>
+                <p class="search-weather">Search Weather</p>
+
+            </div>
+            <!-- grant lcation section -->
+            <div class="grant-location-container">
+                <img src="location.png" height="80" width="80">
+                <h2>Grant Location Access</h2>
+                <p class="text">Allow Access To Get Weather Information</p>
+                <button class="grant-access-btn" type="submit">GRANT ACCESS</button>
+                <!-- looder -->
+                <div class="loader">
+                    <img src="loading.gif" height="80" width="80">
+                    <p>Loading</p>
+                </div>
+
+            </div>
+
+            <!-- your-weather-container -->
+            <div class="userWeather">
+                <div class="user-city"></div>
+                <img class="country-icon" height="30" width="30">
+                <img class="weather-icon" height="50" width="50">
+
+
+
+                <div class="user-weather-condition"></div>
+                <div class="user-temp"></div>
+                <div class="weather-info-card">
+                    <div class="windspeed">
+                        <img src="wind.png" height="40" width="40">
+                        <p>WINDSPEED</p>
+                        <p class="data wind-speed"></p>
+                    </div>
+                    <div class="humidity">
+                        <img src="humidity.png" height="40" width="40">
+                        <p>HUMIDITY</p>
+                        <p class="data humidity-value"></p>
+                    </div>
+                    <div class="cloud">
+                        <img src="cloud.png" height="40" width="40">
+                        <p>CLOUDS</p>
+                        <p class="data cloud-value"></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- search-weather -->
+           <!-- Search Weather -->
+<div class="search-weather-container">
+    <form class="searchForm">
+      <input type="text" placeholder="Search for city..." class="searchInput" />
+      <button class="search-btn" type="submit">
+        <img src="search.png" height="20" width="20" />
+      </button>
+    </form>
+  </div>
+  
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
