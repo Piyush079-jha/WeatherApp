@@ -4,7 +4,7 @@
 
 A sleek weather app built with HTML, CSS, and JavaScript that shows real-time weather using the OpenWeatherMap API.
 
-![Weather App Screenshot](assets)
+! ⛈️[Weather App Screenshot](assets)
 
 ---
 
@@ -15,13 +15,6 @@ A sleek weather app built with HTML, CSS, and JavaScript that shows real-time we
 - 🎨 Clean, modern UI
 - 🌐 Powered by OpenWeatherMap API
 
----
-
-## 📸 Demo
-
-![Demo GIF](assets/demo.gif)
-
----
 
 ## 🛠️ Tech Stack
 
